@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="
+en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         
+    </head>
+    <body>
+            <h2>HTML FORM</h2>
+            <table>
+            <form action="">
+                <tr>
+                <td><label for="uname">NAME:</label></td>
+                <td><input type="text" id="uname" required  autofocus   pattern="^[a-zA-Z]{6}$"></td>
+            </tr>
+            <tr>
+                <td><label for="pwd">Password:</label></td>
+                <td><input type="password" id="pwd"></td>
+               </tr> 
+               <tr>
+                <td><label for="mno">Mobile Number:</label></td>
+                <td><input type="text" id="mno"></td>
+            </tr>
+                <tr>
+                    <td><label for="emailid">EMAIL ID:</label></td>
+                        <td><input type="email" id="emailid"></td>
+            </tr>
+                <tr>
+                    <td><label for="cntry">Select the Options:</label></td>
+                    <td> <select name="" id="">
+                         <option value="">-SELECT-</option>
+                        <optgroup label="Country">
+                                <option value="Austria">Austria</option>
+                                <option value="India">India</option>
+                         </optgroup>
+                         <optgroup label="States">
+                             <option value="TS">Telangana</option>
+                             <option value="AP">AP</option>
+
+                         </optgroup></td>
+
+                </select>
+            </tr>
+                <tr>
+                    <td><label for="addr">Address:</label></td>
+                    <td> <textarea rows="4" cols="15">
+
+                </textarea>
+                </td>
+            </tr>
+
+                <tr>
+                    <td> <label for="tech">Technologies:</label></td>
+                    <td>  <input list="tech">
+                <datalist id="tech">
+                    <option>Servlet</option>
+                    <option>JSP</option>
+
+                </datalist></td>
+            </tr>
+                <tr>
+                    <td> <label for="gender">GENDER:</label></td>
+                    <td> <input type="radio" name="gnd" value="MALE">MALE 
+                <input type="radio" name="gnd" value="FEMALE">FEMALE 
+                <input type="radio" name="gnd" value="Others">Others </td>
+            </tr>
+                
+                <tr>
+                    <td> <label for="dob">DOB:</label></td>
+                    <td><input type="datetime-local"></td>
+                </tr>
+            </tr>
+                <tr>
+                    <td><label for="age">AGE</label></td>
+                    <td><input type="number" min="18" max="59"></td>
+                    </tr>
+                <tr>
+               <td> <input type="hidden" name="scode" value="k42">
+                <input type="submit" value="SIGNUP">
+                <input type="reset" value="RESET"></td>
+            </tr>
+
+
+
+            </form>
+        </table>
+
+
+
+    </body>
+</html>
